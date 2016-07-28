@@ -1,0 +1,39 @@
+slice header and add it to the design as a master element.
+have txt nav in the menu bar. do like the words are inscribed
+then I can "save as" the differnt pages and go from there.
+make product cat buttons in ps (add one for blog)
+mock up section page ie "amd desktops"
+mock up product pages
+mock up a blog page and keyword topics such as: how to build a computer, what is sli, sli vs crossfire, what is eyefinity, How to Back Up Your Computer to start  with.
+map out the article that is going to be on the home page: 
+title: how to build a computer
+sub headings: how difficult is it?, planning your pc, tools needed, 
+components, 
+Assembling your New Computer
+Getting Ready
+Installing the Motherboard
+Installing the Processor
+Installing the CPU Cooler
+Installing RAM
+Installing Expansion Cards
+Installing the Hard Drives
+Installing Auxiliary Drives
+Installing the Panel Connectors
+Firing It Up
+
+=======================================================
+check out http://www.kitchentablecomputers.com/mother2.php for more content ideas
+as well as: http://howto.cnet.com/8301-11310_39-57607654-285/what-you-need-to-know-before-building-your-own-computer/
+============================================================
+I am thinking 2 blog pgs 1 called blog and one called reviews
+===================================================================
+
+make responsive: 3 vesions like brs or css3 book
+
+===================================================================
+
+need to come up with some sort of graphical repersantation of the builds, like a bar graph displaying the different aspects of the build like: processor power/speed, ram, gpu rating, hdd space...maybe just a 1-10 bargraph for easy compairason.
+========================================
+also need a table illustration exact parts?!??
+=====================
+use the bglhq background? Might help it pop a bit...

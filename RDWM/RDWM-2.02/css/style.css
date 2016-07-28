@@ -1,0 +1,1506 @@
+/* Website Name: Red Dragon Web Media | RDWM
+Theme URL: http://www.reddragonwebmedia.com
+Description: Seattle's Premiere Marketing & Digital Development Company 
+Specializing in SEO, Web Development and Mobile Applications. We help you 
+succeed by raising the awareness and revenue of your business!!
+Author: Josh Manion
+Version: 1.2.0
+Website: www.RedDragonWebMedia.com
+*/
+
+
+/* ------------------------------------------ */
+/*             TABLE OF CONTENTS
+/* ------------------------------------------ */
+
+/*   01 - General & Basic Styles   */
+/*   02 - Header & Navigation      */
+/*   03 - Intro      			   */
+/*   04 - Features List            */
+/*   05 - Promo Banner             */
+/*   06 - About		      		   */
+/*   07 - Team             		   */
+/*   08 - Portfolio        		   */
+/*   09 - Call to Action 	  	   */
+/*   10 - Pricing           	   */
+/*   11 - Video Banner             */
+/*   12 - FAQs		 	  	       */
+/*   13 - Testimonials Rotator	   */
+/*   14 - Clients		 	  	   */
+/*   15 - Newsletter	 	  	   */
+/*   16 - Footer		 	  	   */
+/*   17 - Scroll to Top	 	  	   */
+/*   18 - Contact Form Response    */
+
+
+
+/* ==========================================================================
+   01. GENERAL & BASIC STYLES
+   ========================================================================== */
+
+#content_wrapper  {
+	margin-top: 10px;
+}
+    
+/*------------------------------------------*/
+/*	 Preload Animation 
+/*------------------------------------------*/
+
+#preloader{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 99999; 
+	background-color: #fff;
+}
+
+#status{
+	position:absolute;
+	top:50%; 
+	left:50%; 
+	margin:-100px 0 0 -100px;
+	width:200px;
+	height:200px;
+	background-image: url(../img/icons/loader.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 75px 75px;
+}    
+   
+/*------------------------------------------*/
+/*	 Parallax Settings
+/*------------------------------------------*/
+
+.parallax {
+	background-attachment: fixed !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#call_to_action { 
+	background-image: url(../img/parallax/brs4.jpg); 
+}
+
+#video { 
+	background-image: url(../img/parallax/video_banner.jpg); 
+}
+
+/*------------------------------------------*/
+/*	 Headers
+/*------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0; 
+	margin-bottom: 10px;
+}
+
+/*------------------------------------------*/
+/*	 Lists
+/*------------------------------------------*/
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/*------------------------------------------*/
+/*	 Link Setting
+/*------------------------------------------*/
+
+a {
+	text-decoration: none;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+}
+
+a:hover {
+	color: #444;
+	text-decoration: none;
+}
+
+a:focus {
+	color: #f8f8f8;
+	outline: none;
+	border: none;
+	text-decoration: none;
+} 
+
+/*------------------------------------------*/
+/*	 Theme Button
+/*------------------------------------------*/
+
+.btn-theme {
+	background-color: #19acca;
+	color: #fff;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 9px 18px;
+	-webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	-ms-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
+
+.btn-theme:hover {
+	background-color: #1292ac;
+	color: #fff;
+}
+
+/*------------------------------------------*/
+/*	 Button Hover/Focus
+/*------------------------------------------*/
+
+.btn:focus {
+	color: #f8f8f8;
+	text-decoration: none;
+	outline: none;
+} 
+
+/*------------------------------------------*/
+/*	 Section Titlebar Settings
+/*------------------------------------------*/
+
+.titlebar {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.titlebar h2 {
+	color: #222;
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-bottom: 5px;
+}
+
+.titlebar p {
+	color: #000;
+	font-size: 24px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 28px;
+	font-weight: 700;
+	text-shadow: 0 0 5px #0000FF;
+	text-transform: uppercase;
+	padding: 0 5%;
+} 
+
+
+
+/* ==========================================================================
+   02. HEADER & NAVIGATION
+   ========================================================================== */
+
+/*------------------------------------------*/
+/*	 Logo Image    
+/*------------------------------------------*/
+
+.navbar-brand {
+	padding: 18px 15px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: x-large;
+}  
+     
+/*------------------------------------------*/
+/*	 Navigation Menu    
+/*------------------------------------------*/
+
+.navbar {	
+	margin-bottom: 0;
+	-webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.navbar-fixed-top { 
+	background-color: #f4f4f4;
+	border-bottom: 1px solid #ddd;
+}
+
+.navbar-nav > li > a {
+	color: #222;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: block;
+	padding: 0 15px;
+	-webkit-transition: all 100ms ease-in-out;
+	-moz-transition: all 100ms ease-in-out;
+	-o-transition: all 100ms ease-in-out;
+	-ms-transition: all 100ms ease-in-out;
+	transition: all 100ms ease-in-out;
+}
+
+/*------------------------------------------*/
+/*	 Menu Hover
+/*------------------------------------------*/
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a.selected-nav {
+	color: #19acca;
+	background-color: transparent;
+}
+
+/*------------------------------------------*/
+/*	 Responsive Menu    
+/*------------------------------------------*/
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+	background-color: none;
+    padding: 10px;
+	margin: 13px 30px 13px 0;
+	border: none;
+	color: #fff;
+	border: 2px solid #333;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #333;
+}
+
+
+
+/* ==========================================================================
+   03. INTRO
+   ========================================================================== */
+
+/*------------------------------------------*/
+/*	 Intro Basic Settings
+/*------------------------------------------*/
+
+#intro { 
+    background-image: url(../img/parallax/bg5.jpg); 
+    background-attachment: fixed !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+/*------------------------------------------*/
+/*	 Intro Description 
+/*------------------------------------------*/
+
+#intro_description h2 {
+	font-size: 42px;
+	font-weight: 900;
+	line-height: 36px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	text-shadow: 3px 3px 5px #000000;
+}
+
+#intro_description h3 { 
+	font-size: 32px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-shadow: 3px 3px 5px #000000;
+}
+
+#intro_description p { 
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 26px;
+	margin-bottom: 20px;
+}
+
+/*------------------------------------------*/
+/*	  Intro List
+/*------------------------------------------*/
+
+.intro_list {
+	margin-bottom: 25px;
+}
+
+.intro_list li {
+	position: relative;
+}
+
+
+/*------------------------------------------*/
+/*	  Intro List Icon
+/*------------------------------------------*/
+
+.intro-list-icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    top: 6px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*------------------------------------------*/
+/*	  Intro List Content
+/*------------------------------------------*/
+
+.intro-list-content {
+	padding-left: 30px;
+}
+
+.intro-list-content p {
+	font-size: 22px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 26px;
+	padding-right: 20px;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+/*------------------------------------------*/
+/*	 Intro Register Form  
+/*------------------------------------------*/
+
+.form_register form {	
+    background-color: rgba(10, 10, 10, 0.75);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 30px 10px 50px;
+    margin: 0 50px;
+}
+
+.form_register h4 {
+    font-size: 28px;
+    color: #fff;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.form_register p {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 20px;
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+
+/*------------------------------------------*/
+/*	  Register Form Input
+/*------------------------------------------*/
+
+.form_register .form-control {
+	height: 44px;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	background-color: #f0f0f0;
+	color: #444;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+/*------------------------------------------*/
+/*	   Register Form Error Message 
+/*------------------------------------------*/
+
+.error {
+	color: #fc0000;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+
+
+/* ==========================================================================
+   04. FEATURES LIST
+   ========================================================================== */
+
+#features {
+	padding-top: 100px;
+	padding-bottom: 60px;
+}  
+
+/*------------------------------------------*/
+/*	 Feature Box 
+/*------------------------------------------*/
+
+.feature-box {
+	margin-bottom: 40px;
+}
+
+/*------------------------------------------*/
+/*	 Feature Box Icon
+/*------------------------------------------*/
+
+.feature-box-icon {
+	margin-bottom: 20px;
+}
+
+.feature-box-icon i {
+	color: #000;
+	font-size: 50px;
+}
+
+/*------------------------------------------*/
+/*	 Feature Box Content
+/*------------------------------------------*/
+
+.feature-box-content h5 {
+	color: #000;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 22px;
+	text-transform: uppercase;
+	padding: 0 5%;
+	margin-bottom: 15px;
+}
+
+.feature-box-content p {
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 24px;
+}
+
+
+
+/* ==========================================================================
+   05. PROMO BANNER 
+   ========================================================================== */
+   
+#promo-banner {
+	background-image: url(../img/thumbs/pattern.png);
+	background-color: #19acca;	
+	background-repeat: repeat;
+	background-position: 0 0;
+	padding-top: 80px;
+	padding-bottom: 10px;
+}
+
+#promo-banner h1 {
+	color: #fff;
+	font-size: 40px;
+	line-height: 40px;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 5px;
+}
+
+#promo-banner h3 {
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+#promo-banner .img-responsive {
+	display: inline-block;
+}
+
+
+/* ==========================================================================
+   06. ABOUT
+   ========================================================================== */
+
+#about {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#about h3 {
+	color: #222;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-bottom: 20px;	
+}
+
+/*------------------------------------------*/
+/*	Our Philosophy
+/*------------------------------------------*/
+
+#our-philosophy {
+	margin-bottom: 50px;
+}
+
+#our-philosophy h4 {
+	color: #19acca;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+#our-philosophy p {
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 22px;
+}
+
+/*------------------------------------------*/
+/*	Accordion
+/*------------------------------------------*/
+
+.panel-group .panel {
+    margin-bottom: 10px;
+    background: none;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.panel-heading {
+    padding: 0;
+    background: none !important;
+    border: 0 !important;
+}
+
+.panel-title {
+    color: #222;
+    font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    border: 1px solid #999;
+    text-transform: uppercase;
+}
+
+.panel-title > a {
+    display: block;
+    color: #222;
+    padding: 13px 15px 13px;
+}
+
+.panel-title > a:hover {
+    color: #19acca;
+}
+
+.panel-body {
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 22px;
+}
+
+.panel-default > .panel-heading + .panel-collapse .panel-body {
+    border: 0
+}
+
+.panel-default > .panel-heading + .panel-collapse {
+    border: 1px solid #999;
+    border-top: none;
+}
+
+/*------------------------------------------*/
+/*	Tabs
+/*------------------------------------------*/
+
+#tabs-holder p {
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 22px;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #999;
+}
+
+.nav-tabs > li > a {
+    color: #19acca;
+    font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+	text-transform: uppercase;
+}
+
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus {
+	color: #222;
+    border-color: #999 #999 transparent;
+}
+
+.nav-tabs > li > a:hover {
+    border-color: #eee #eee #999;
+}
+
+.tab-content > .tab-pane {
+    padding: 15px;
+}
+
+
+
+/* ==========================================================================
+   07. TEAM
+   ========================================================================== */
+   
+#team {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	background-color: #f0f0f0;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.team-member {
+	text-align: center;
+	margin-bottom: 50px;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+	/*margin: 0 auto;*/
+}
+
+#team-1 {
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*------------------------------------------*/
+/*	  Team Member Photo
+/*------------------------------------------*/
+
+.img-block { 
+	margin: 0 10px 15px 10px;
+}
+
+/*------------------------------------------*/
+/*	  Team Member Meta
+/*------------------------------------------*/
+
+.team-img-meta h4 {
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.team-img-meta h5 {
+	color: #19acca;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.team-img-meta p {
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 20px;
+	padding: 0 2%;
+}
+
+/*------------------------------------------*/
+/*	  Team Member Social Icons 
+/*------------------------------------------*/
+
+.team-member-socials {
+	text-align: right;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.team-member-socials li {
+	float: left;
+    display: inline-block !important;
+    vertical-align: top;
+    width: auto !important;
+    clear: none !important;
+}
+
+.page_social {
+    width: 40px;
+    height: 40px;
+	background-color: #ddd;
+	color: #aaa;
+	font-size: 18px; 
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    text-decoration: none;
+	margin: 0 3px 5px;
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+	box-shadow: 0px 2px 1px rgba(0,0,0,0.3);
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+}
+
+/*------------------------------------------*/
+/*	 Intro Page Social Icons Background 
+/*------------------------------------------*/
+
+.page_social.ico_facebook:hover {background-color: #3b5998; border-color: #3b5998; color: #f8f8f8;}
+.page_social.ico_twitter:hover {background-color: #00a9ed; border-color:#00a9ed; color: #f8f8f8;}
+.page_social.ico_behance:hover {background-color: #00a8e7; border-color:#00a8e7; color: #f8f8f8;}
+.page_social.ico_google_plus:hover {background-color: #cd1111; border-color:#cd1111; color: #f8f8f8;}
+.page_social.ico_linkedin:hover {background-color: #015886; border-color:#015886; color: #f8f8f8;}
+.page_social.ico_dribbble:hover {background-color: #d92d84; border-color:#d92d84; color: #f8f8f8;}
+.page_social.ico_instagram:hover {background-color: #beb3a8; border-color:#beb3a8; color: #f8f8f8;}
+.page_social.ico_pinterest:hover {background-color: #ac281a; border-color:#ac281a; color: #f8f8f8;}
+.page_social.ico_dropbox:hover {background-color: #008ad2; border-color:#008ad2; color: #f8f8f8;}
+.page_social.ico_skype:hover {background-color: #00a9ed; border-color:#00a9ed; color: #f8f8f8;}
+.page_social.ico_youtube:hover {background-color: #cd1b20; border-color:#cd1b20; color: #f8f8f8;}
+.page_social.ico_tumblr:hover {background-color: #3a5976; border-color:#3a5976; color: #f8f8f8;}
+.page_social.ico_vimeo:hover {background-color: #00adee; border-color:#00adee; color: #f8f8f8;}
+.page_social.ico_flickr:hover {background-color: #d2d2d2; border-color:#d2d2d2; color: #f8f8f8;}
+.page_social.ico_github:hover {background-color: #222; border-color:#222; color: #f8f8f8;}
+.page_social.ico_renren:hover {background-color: #364a83; border-color:#364a83; color: #f8f8f8;}
+.page_social.ico_vk:hover {background-color: #3b5998; border-color:#3b5998; color: #f8f8f8;}
+.page_social.ico_xing:hover {background-color: #015f5e; border-color:#015f5e; color: #f8f8f8;}
+.page_social.ico_weibo:hover {background-color: #be4443; border-color:#be4443; color: #f8f8f8;}
+.page_social.ico_rss:hover {background-color: #ff6600; border-color:#ff6600; color: #f8f8f8;}
+.page_social.ico_digg:hover {background-color: #222; border-color:#222; color: #f8f8f8;}
+.page_social.ico_deviantart:hover {background-color: #57675d; border-color:57675d; color: #f8f8f8;}
+.page_social.ico_envelope:hover {background-color: #999; border-color:#999; color: #f8f8f8;}
+.page_social.ico_delicious:hover {background-color: #0A0A0A; border-color:#0A0A0A; color: #f8f8f8;}
+
+
+
+
+/* ==========================================================================
+   08. PORTFOLIO
+   ========================================================================== */
+
+#portfolio {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+/*------------------------------------------*/
+/*	  Portfolio Item
+/*------------------------------------------*/ 
+
+.portfolio-item {
+	position: relative;	
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.portfolio-item a {
+	cursor: url(../img/icons/pointer.png),crosshair;
+}
+
+.hover-overlay {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.hover-overlay img {
+	transition: all 600ms;
+	-moz-transition: all 600ms;
+	-webkit-transition: all 600ms;
+	-o-transition: all 600ms;
+}
+
+/*------------------------------------------*/
+/*	  Overlay Content 
+/*------------------------------------------*/ 
+
+.overlay-content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 20;
+	width: 100%;
+	text-align: center;
+	zoom: 1;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	-webkit-transition: all 200ms ease-out;
+	-moz-transition: all 200ms ease-out;
+	-o-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
+}
+
+.overlay-content h4 {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+.overlay-content h5 {
+	color: #19acca;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+/*------------------------------------------*/
+/*	  Overlay Background 
+/*------------------------------------------*/ 
+
+.item-overlay {
+	opacity: 0;
+	opacity: 0; 
+	-moz-opacity: 0; 
+	filter: alpha(opacity=100);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(10, 10, 10, 0.85);
+	-moz-transition: opacity 400ms ease-out;
+	-webkit-transition: opacity 400ms ease-out;
+	-o-transition: opacity 400ms ease-out;
+	transition: opacity 400ms ease-out;
+}
+
+/*------------------------------------------*/
+/*	  Image Hover Effect 
+/*------------------------------------------*/ 
+
+.hover-overlay:hover > img {
+	transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+
+.hover-overlay:hover .item-overlay {
+	opacity: 1; 
+	-moz-opacity: 1; 
+	filter: alpha(opacity=100);
+}
+
+.portfolio-item:hover .overlay-content {
+	bottom: 35%;
+	opacity: 1; 
+	-moz-opacity: 1; 
+	filter: alpha(opacity=100);
+}
+
+
+
+/* ==========================================================================
+   09. CALL TO ACTION
+   ========================================================================== */
+
+#call_to_action {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}   
+
+/*------------------------------------------*/
+/*	 Call-To-Action Slogan
+/*------------------------------------------*/  
+
+#cta_slogan h2 {
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 2px;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+#cta_slogan h2 span {
+	color: #19acca;
+	text-transform: uppercase;
+	font-weight: 900;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+#cta_slogan p {
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;	
+	line-height: 26px;
+	margin-bottom: 0;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+/*------------------------------------------*/
+/*	 Call-To-Action Button
+/*------------------------------------------*/  
+
+#cta_button_2 {
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+#cta_button a {
+	margin-top: 10px;
+
+}
+
+#cta_button i {
+	margin-right: 5px;
+}
+ 
+/* ==========================================================================
+   10. PRICING 
+   ========================================================================== */
+
+#pricing {
+	padding-top: 100px;
+	padding-bottom: 80px;
+	background-color: #f0f0f0;
+} 
+
+#price_1, #price_2, #price_3, #price_4 {
+	margin-bottom: 50px;
+}
+
+.pricing-table {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+/*------------------------------------------*/
+/*	  Pricing Table Header
+/*------------------------------------------*/
+
+.pricing-table .price-header {
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+
+.pricing-table .plan-title {
+	color: #444;
+	font-size: 20px;
+	font-weight: 900;
+	text-transform: uppercase;
+    padding: 30px 15px;
+    margin: 0;
+	-webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+/*------------------------------------------*/
+/*	  Pricing Table Price Plan
+/*------------------------------------------*/
+
+.pricing-table .plan-price {
+    background-color: #eee;
+	margin: 0;
+	line-height: normal;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;	
+}
+
+.pricing-table .plan-price h2 {
+	color:  #222;
+	font-size: 44px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.pricing-table .plan-price span {
+	color: #19acca;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/*------------------------------------------*/
+/*	  Pricing Table Body
+/*------------------------------------------*/
+
+.pricing-table ul.features {
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+    padding: 5px 20px;
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	-ms-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
+
+.pricing-table ul.features li {
+    border-top: 1px solid #ccc;
+    padding: 10px 25px; 
+}
+
+.pricing-table ul.features li:nth-child(1),
+.pricing-table.featured ul.features li:nth-child(1) {
+    border: none;
+}
+
+/*------------------------------------------*/
+/*	  Pricing Table Footer
+/*------------------------------------------*/
+
+.pricing-table .price-footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid #ccc;
+	-webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+}
+
+/*------------------------------------------*/
+/*	  Featured Table
+/*------------------------------------------*/
+
+.pricing-table.featured .price-header {
+	border-bottom: 1px solid #19acca;
+}
+
+.pricing-table.featured .plan-title {
+	background-color: #19acca;
+	color: #f7f7f7;
+}
+
+.pricing-table.featured .plan-price {
+	background-color: #19acca;
+	color: #f7f7f7;
+	border-top: 1px solid #1292ac;
+}
+
+.pricing-table.featured .plan-price h2,
+.pricing-table.featured .plan-price span { 
+		color: #f7f7f7;
+}
+
+
+
+/* ==========================================================================
+   11. VIDEO BANNER
+   ========================================================================== */
+
+#video {
+	padding-top: 100px;
+}
+
+#video_title h2 {
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+#video_title p {
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	line-height: 24px;
+	margin-bottom: 40px;
+}
+
+/*------------------------------------------*/
+/*	  Video Content Settings
+/*------------------------------------------*/ 
+
+.video-block {
+	position: relative;
+	padding-bottom: 54.25%;
+	padding-top: 20px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-block iframe,
+.video-block object,
+.video-block embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border:0;
+}
+
+
+
+/* ==========================================================================
+   12. FAQs
+   ========================================================================== */
+ 
+#faq {
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+
+#faq h1 {
+	color: #222;
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+/*------------------------------------------*/
+/*	  FAQs Question
+/*------------------------------------------*/
+
+.question {
+	margin-bottom: 20px;
+}
+  
+.question h4 {
+	color: #000;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 26px;
+	margin-bottom: 5px;
+}
+
+.question p {
+	color: #666;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 24px;
+}
+
+
+
+/* ==========================================================================
+   13. TESTIMONIALS ROTATOR
+   ========================================================================== */
+
+#testimonials-rotator {
+	background-image: url(../img/thumbs/pattern.png);
+	background-color: #eee;	
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+  
+.testimonials {
+	margin: 50px 8% 50px;
+}
+
+.slides {
+	margin: 10px 0 50px;
+}
+
+/*------------------------------------------*/
+/*	 Message Author
+/*------------------------------------------*/
+
+.testimonials p.author {
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	margin-bottom: 0;
+	padding-top: 10px;
+}
+
+.testimonials p.author span {
+	color: #19acca;
+}
+
+/*------------------------------------------*/
+/*	 Testimonial Message Text
+/*------------------------------------------*/
+
+.testimonials p {
+	font-size: 22px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	line-height: 36px;
+    padding-top: 10px;
+}
+
+
+
+/* ==========================================================================
+   14. CLIENTS
+   ========================================================================== */
+ 
+#clients  {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}	
+
+#clients-titlebar {
+	position: relative;
+}
+
+/*------------------------------------------*/
+/*	 Clients Carousel Navigation
+/*------------------------------------------*/
+
+.customNavigation {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+
+.customNavigation .btn {
+	padding: 4px 10px;
+}
+
+.customNavigation i {
+	font-size: 20px;
+	color: #fff;
+}
+
+
+
+/* ==========================================================================
+   15. NEWSLETTER
+   ========================================================================== */
+
+#newsletter {
+	padding-top: 80px;
+	padding-bottom: 90px;
+	background-image: url(../img/thumbs/FooterBackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#newsletter .titlebar {
+	margin-bottom: 0;
+}
+
+#newsletter .titlebar h2 {
+	color: #fff;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+#newsletter .titlebar p {
+	
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-weight:100;
+	font-size:18px;
+	color:#ffffff;
+	line-height:200%;
+	margin-left:90px;
+	text-shadow: 2px 2px 5px #000000;
+
+	/*color: #fff;
+	margin-bottom: 0;*/
+}
+
+.message {
+	font-size: 18px;
+    font-family: 'Raleway', sans-serif;	
+	margin-bottom: 20px;
+}
+
+/*------------------------------------------*/
+/*	  Newsletter Form Input
+/*------------------------------------------*/
+
+#newsletter form input[type="email"] {
+    background-color: #f0f0f0;
+	width: 40%;
+	color: #414141;
+	font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#newsletter form input[type="submit"] {
+	width: 16%;
+	background-color: #19acca;
+	color: #fff;
+	font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+	text-transform: uppercase;
+    margin-left: 10px;
+    padding: 12px 15px;
+	border: medium none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+}
+
+#newsletter form input[type="submit"]:hover {
+	background-color: #1292ac;
+}
+
+
+
+/* ==========================================================================
+   16. FOOTER
+   ========================================================================== */
+
+#footer {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+/*------------------------------------------*/
+/*	 Footer Copy 
+/*------------------------------------------*/  
+
+#footer_copy p {
+	color: #666;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*------------------------------------------*/
+/*	 Footer Social Icons  
+/*------------------------------------------*/
+
+.footer-socials {
+	display: inline-block; 
+	padding-left: 0;
+}
+
+.footer-socials li {
+	float: left;
+	width: auto !important;
+    display: inline-block !important;
+    vertical-align: top;
+    clear: none !important;
+	padding: 0;
+}
+
+/*------------------------------------------*/
+/*	 Footer Social Icon Setting 
+/*------------------------------------------*/
+
+.foo_social {
+	text-align: center;
+	color: #7f7f7f;
+	font-size: 18px;
+    line-height: 18px;
+	margin: 0 15px;
+    display: block;
+    text-decoration: none;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+}
+
+/*------------------------------------------*/
+/*	 Footer Social Icons Hover 
+/*------------------------------------------*/
+
+.foo_social.ico-facebook:hover {color: #3b5998;}
+.foo_social.ico-twitter:hover {color: #00a9ed;}
+.foo_social.ico-behance:hover {color: #00a8e7;}
+.foo_social.ico-google-plus:hover {color: #cd1111;}
+.foo_social.ico-linkedin:hover {color: #015886;}
+.foo_social.ico-dribbble:hover {color: #d92d84;}
+.foo_social.ico-instagram:hover {color: #beb3a8;}
+.foo_social.ico-pinterest:hover {color: #ac281a; }
+.foo_social.ico-dropbox:hover {color: #008ad2;}
+.foo_social.ico-skype:hover {color: #00a9ed; }
+.foo_social.ico-youtube:hover {color: #cd1b20;}
+.foo_social.ico-tumblr:hover {color: #3a5976;}
+.foo_social.ico-vimeo:hover {color: #00adee;}
+.foo_social.ico-flickr:hover {color: #d2d2d2; }
+.foo_social.ico-github:hover {color: #222; }
+.foo_social.ico-renren:hover {color: #364a83;}
+.foo_social.ico-vk:hover  {color: #3b5998;}
+.foo_social.ico-xing:hover  {color: #015f5e;}
+.foo_social.ico-weibo:hover {color: #be4443; }
+.foo_social.ico-rss:hover {color: #ff6600;}
+.foo_social.ico-digg:hover  {color: #222;}
+.foo_social.ico-deviantart:hover {color: #57675d;}
+.foo_social.ico-envelope:hover {color: #999; }
+.foo_social.ico-delicious:hover {color: #0A0A0A;}
+
+
+
+/* ==========================================================================
+   17. SCROLL TO TOP
+   ========================================================================== */
+
+#scrollUp {
+	display: none;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+	background-image: url(../img/icons/back-to-top.png);
+	background-repeat: no-repeat;
+	background-position: 50% 48%;
+	background-color:rgba(123, 123, 123, 0.65);	
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+	-webkit-transition: all 250ms linear;
+	-moz-transition: all 250ms linear;
+	transition: all 250ms linear;	
+}
+
+#scrollUp:hover {
+	background-color: rgba(25, 172, 202, 0.95);
+}
+
+nav a#pull {  
+    display: none;  
+}
+
+
+
+/* ==========================================================================
+   18. CONTACT FORM RESPONSE PAGE   
+   ========================================================================== */
+   
+#form_response {
+	margin: 50px auto; 
+}
+
+#form_response .img-responsive { display: inline-block; }
+
+#form_response h1 {
+	font-size: 40px; 
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+#form_response p {
+	font-size: 18px; 
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+

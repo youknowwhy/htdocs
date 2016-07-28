@@ -1,0 +1,393 @@
+
+
+body {
+ padding-top: 150px;
+ font-family: 'Roboto', sans-serif;
+ font-weight:100;
+}
+
+/* go on then, styles go here.. knock yourself out! */
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300);
+body {
+  background-color: #339999;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+aside {
+  width: 600px;
+  background-color: #333;
+  height: 300px;
+  margin: 20px auto;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px #333;
+}
+aside header img {
+  position: absolute;
+  top: 0px;
+  left: -100px;
+  width: 300px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+aside header h1 {
+  color: #339999;
+  position: absolute;
+  left: 235px;
+  top: 90px;
+  font-size: 2.2em;
+  font-weight: 300;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+aside header h1:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  display: block;
+  background-color: #339999;
+  margin-top: 5px;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  opacity: 0.1;
+}
+aside header h2 {
+  color: #c1c1c1;
+  position: absolute;
+  left: 300px;
+  top: 150px;
+  font-weight: 100;
+  font-size: 1.4em;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+aside .profile-bio p {
+  position: absolute;
+  left: 620px;
+  top: 100px;
+  width: 365px;
+  color: #fff;
+  font-weight: 100;
+  font-size: 1em;
+  line-height: 22px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+aside .profile-social-links {
+  position: absolute;
+  left: 58%;
+  bottom: -100px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+aside .profile-social-links li {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+aside .profile-social-links li a {
+  color: #fff;
+  font-size: 1.5em;
+  padding: 5px;
+}
+aside .profile-social-links li a i {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+aside .profile-social-links li a:hover {
+  color: #339999;
+  border-bottom: 2px solid #339999;
+}
+aside .profile-social-links li a:hover i {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+aside:hover img {
+  left: -100px;
+  border-radius: 0;
+  top: 0;
+  left: 0;
+  height: 300px;
+  width: 300px;
+  opacity: 0.1;
+  border: none;
+  box-shadow: none;
+}
+aside:hover h1 {
+  left: 220px;
+  top: 0px;
+  font-size: 2em;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+aside:hover h1:after {
+  height: 26px;
+  width: 100%;
+  left: 0;
+  margin-top: 5px;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+  opacity: 0.8;
+}
+aside:hover h2 {
+  left: 225px;
+  top: 50px;
+  font-size: 1.2em;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+  color: #fff;
+}
+aside:hover .profile-bio p {
+  left: 220px;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+aside:hover .profile-social-links {
+  bottom: 0px;
+}
+
+
+#masthead { 
+ min-height:250px;
+}
+
+#masthead h1 {
+ font-size: 30px;
+ line-height: 1;
+ padding-top:20px;
+}
+
+#masthead .profile-card {
+ margin-top:10%;
+}
+
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 50px;
+  }
+}
+
+.navbar-bright {
+ background-color:#111155;
+ color:#fff;
+}
+
+.affix-top,.affix{
+ position: static;
+}
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+  	margin-top:30px;
+  	width:228px;
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:228px;
+  }
+}
+
+#sidebar li.active {
+  border:0 #eee solid;
+  border-right-width:5px;
+}
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+body {
+    background:#2d3b36 url(http://www.luismruiz.com/img/blured.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top:100px;
+}
+
+#hpform {
+  float: right;
+  margin: 10px;
+}
+
+form {
+    margin-left: 15px;
+    margin-right:auto;
+    /*width: 343px;*/
+    width: 300;
+    /*height: 333px;*/
+    height:300;
+    padding:30px;
+    border: 1px solid rgba(0,0,0,.2);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: rgba(0, 0, 0, 0.5); 
+    -moz-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    overflow: hidden; 
+}
+
+textarea{
+    background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px; 
+    width: 276px;
+    height: 110px;
+    border: 1px solid rgba(255,255,255,.6);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+    color:#fff;
+    padding-left:45px;
+    padding-right:20px;
+    padding-top:12px;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+
+input {
+    /*width: 276px;*/
+    width: 100%;
+    height: 48px;
+    border: 1px solid rgba(255,255,255,.4);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+    color:#fff;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+}
+
+input[type=submit] {
+    cursor:pointer;
+}
+
+input.name {
+    background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_name.png) no-repeat scroll 16px 16px; 
+    padding-left:45px;
+}
+
+input.email {
+    background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_email.png) no-repeat scroll 16px 20px;
+    padding-left:45px;
+}
+
+input.message {
+    background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px;
+    padding-left:45px;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+:-moz-placeholder{ 
+    color: #fff; 
+}
+
+::-moz-placeholder {
+    color: #fff;
+}
+
+:-ms-input-placeholder {  
+    color: #fff; 
+}
+
+input:focus, textarea:focus { 
+    background-color: rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    -webkit-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    overflow: hidden; 
+}
+
+.btn {
+    width: 138px;
+    height: 44px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    float:right;
+    border: 1px solid #253737;
+    background: #416b68;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6da5a3), to(#416b68));
+    background: -webkit-linear-gradient(top, #6da5a3, #416b68);
+    background: -moz-linear-gradient(top, #6da5a3, #416b68);
+    background: -ms-linear-gradient(top, #6da5a3, #416b68);
+    background: -o-linear-gradient(top, #6da5a3, #416b68);
+    background-image: -ms-linear-gradient(top, #6da5a3 0%, #416b68 100%);
+    padding: 10.5px 21px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    -moz-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    text-shadow: #333333 0 1px 0;
+    color: #e1e1e1;
+}
+
+.btn:hover {
+    border: 1px solid #253737;
+    text-shadow: #333333 0 1px 0;
+    background: #416b68;
+    background: -webkit-gradient(linear, left top, left bottom, from(#77b2b0), to(#416b68));
+    background: -webkit-linear-gradient(top, #77b2b0, #416b68);
+    background: -moz-linear-gradient(top, #77b2b0, #416b68);
+    background: -ms-linear-gradient(top, #77b2b0, #416b68);
+    background: -o-linear-gradient(top, #77b2b0, #416b68);
+    background-image: -ms-linear-gradient(top, #77b2b0 0%, #416b68 100%);
+    color: #fff;
+ }
+
+.btn:active {
+    margin-top:1px;
+    text-shadow: #333333 0 -1px 0;
+    border: 1px solid #253737;
+    background: #6da5a3;
+    background: -webkit-gradient(linear, left top, left bottom, from(#416b68), to(#416b68));
+    background: -webkit-linear-gradient(top, #416b68, #609391);
+    background: -moz-linear-gradient(top, #416b68, #6da5a3);
+    background: -ms-linear-gradient(top, #416b68, #6da5a3);
+    background: -o-linear-gradient(top, #416b68, #6da5a3);
+    background-image: -ms-linear-gradient(top, #416b68 0%, #6da5a3 100%);
+    color: #fff;
+    -webkit-box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    -moz-box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+   }
+
+
+form .form-txt {
+  color: #ffffff;
+  text-align: center;
+}

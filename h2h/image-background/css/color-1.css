@@ -1,0 +1,30 @@
+.phone-no .fa,
+.header-area h1 span,
+.button,
+.form input[type="submit"],
+.section-head h2:after,
+.philosophy-list .fa,
+.philosophy-list li span:after,
+.single-service,
+.social-icons li a:hover,
+.owl-theme .owl-controls .owl-page span{
+	background:#3498db;
+}
+
+.single-testimonial h5,
+.footer-area a:hover{
+	color:#3498db;
+}
+
+.button:hover,
+.form input[type="submit"]:hover{
+	background:#1c6697;
+}
+
+.single-about{
+	background:#cee2ea;
+}
+
+.single-about.alt{
+	background:#b7d7e3;
+}

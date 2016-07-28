@@ -1,0 +1,277 @@
+/*pc builder vid pag css style sheet
+Author: Josh Manion*/
+
+h4 {color: #fff; font-weight: 400;}
+
+body {
+	background-color: #000;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    /*background-color: #0683c9;*/
+    /*background-color: #0000BC;*/
+    background-color: #000000;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    transition: height 0.3s;
+}
+header h1#logo {
+    display: inline-block;
+    margin-left: 5%;
+    height: 50px;
+    line-height: 25px;
+    float: left;
+    /*font-family: "Oswald", sans-serif;*/
+    font-family: 'UbuntuRegular', sans-serif;
+    font-size: 40x;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+header nav {
+    display: inline-block;
+    float: right;
+    margin-right: 5%;
+}
+header nav a {
+    line-height: 100px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+header nav a:hover {
+    color: #0000BC;
+}
+header.smaller {
+    height: 75px;
+}
+header.smaller h1#logo {
+    width: 150px;
+    height: 75px;
+    line-height: 75px;
+    font-size: 30px;
+}
+header.smaller nav a {
+    line-height: 75px;
+}
+
+@media all and (max-width: 660px) {
+    header h1#logo {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+    }
+    header nav {
+        display: block;
+        float: none;
+        height: 50px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    header nav a {
+        line-height: 50px;
+        margin: 0 10px;
+    }
+    header.smaller {
+        height: 75px;
+    }
+    header.smaller h1#logo {
+        height: 40px;
+        line-height: 40px;
+        font-size: 30px;
+    }
+    header.smaller nav {
+        height: 35px;
+    }
+    header.smaller nav a {
+        line-height: 35px;
+    }
+}
+#bg_container{ height:700px; width: 100%; overflow:hidden; }
+#bg{ width:100%; height:900px; }
+#content{ position:absolute; top:0px; padding: 20%; color:#FFF; text-shadow:#000 2px 2px; }
+
+.home-mid { 
+	background: #131313; 
+	clear: both; 
+	overflow: hidden; 
+	padding: 1em; 
+	border-top: 2px solid #0000BC;
+	border-bottom: 2px solid #0000BC;
+}
+.home-mid h2 {
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+.box-set,
+.box {
+  border-radius: 2px;
+}
+.box-set {
+  background: #131313;
+  width: 90%;
+  float: left;
+  padding: 0 5%;
+}
+.box {
+  display: block;
+  background: #1e1e1e;
+  float: left;
+  margin: 1%;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 30%;
+}
+.box h1 {
+	font-size: 45px;
+	font-family: 'UbuntuRegular';
+	color: #fff;
+	text-align: center;
+	float: left;
+	width: 100%;
+	background: #393939;
+	padding: 10px 0;
+	margin: 0;
+}
+.box h2 {
+	font-size: 18px;
+	font-family: 'UbuntuRegular';
+	color: #585858;
+	text-align: center;
+	float: left;
+	width: 80%;
+	padding: 0 10%;
+	text-transform: uppercase;
+	margin-top: 20px;
+	line-height: 20px;
+	word-spacing: 5px;
+}
+.box p {
+	font-size: 20px;
+	font-family: 'UbuntuLight';
+	color: #666666;
+	text-align: center;
+	float: left;
+	width: 80%;
+	padding: 0 10%;
+	margin-top: 20px;
+	line-height: 20px;
+	word-spacing: 5px;
+}
+.box a {
+	text-decoration: none;
+}
+.box button {
+  margin: 0 auto;
+  font-size: 2.0rem;
+  padding: 10px 25px;
+  display: block;
+  background-color: #0000BC;
+  /*background-color: 003300;*/
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 2px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.box button:hover {
+  background-color: #1e1e1e;
+/*   color: #009ac9; */
+  color: #0000BC;
+/*   border-color: #009ac9; */
+  border-color: #0000BC;
+}
+
+.box-content{ color: #333; font-size: 15px; text-align: center;}
+.box-img {
+	height: 100%
+}
+
+/*body styles******************************************************/
+
+.body-container {
+	display: block;
+	float: left;
+	width: 100%;
+	padding: 40px 0;
+	border-bottom: 2px solid #0000BC;
+	/*box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.8);*/
+}
+.body-container-area {
+	display: block;
+	width: 1150px;
+	margin: 0 auto;
+}
+.text-and-video-area {
+	display: block;
+	float: left;
+	width: 100%
+}
+.text-area {
+	display: block;
+	float: left;
+	width: 65%;
+}
+.text-area h1 {
+	font-size: 36px;
+	color: #fff;
+	font-family:  'UbuntuLight';
+}
+.text-area p {
+	font-size: 20px;
+	color: #999;
+	font-family: 'UbuntuLight';
+	margin-top: 25px;
+	line-height: 30px;
+}
+.video-area {
+	display: block;
+	float: left;
+	width: 33%;
+	margin-left: 2%;
+}
+.adspace {
+	margin-top: 25px;
+	text-align: center;
+}
+.footer-container {
+	display: block;
+	width: 100%;
+	background: #131313;
+	height: 300px;
+	float: left;
+}
+.footer-container h1 {
+	color: #fff;
+}

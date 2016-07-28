@@ -1,0 +1,39 @@
+[Wed Dec 04 2013 00:36:30 GMT-0800 (Pacific Standard Time)]
+Failed to get pixmap of layer 24 (AMD_Laptops.png): Error: timeout
+
+[Wed Dec 04 2013 00:36:31 GMT-0800 (Pacific Standard Time)]
+Failed to get pixmap of layer 22 (AMD_Office_Desktops.png): Error: timeout
+
+[Wed Dec 04 2013 00:36:31 GMT-0800 (Pacific Standard Time)]
+Failed to get pixmap of layer 90 (AMD_Gaming_Desktops.png): Error: timeout
+
+[Wed Dec 04 2013 00:36:31 GMT-0800 (Pacific Standard Time)]
+Failed to get pixmap of layer 16 (slider.png): Error: timeout
+
+[Wed Dec 04 2013 00:36:31 GMT-0800 (Pacific Standard Time)]
+Failed to get pixmap of layer 15 (social_media.png): Error: timeout
+
+[Wed Dec 04 2013 00:36:32 GMT-0800 (Pacific Standard Time)]
+Failed to get pixmap of layer 52 (Bgbottom.png): Error: timeout
+
+[Wed Dec 04 2013 00:36:32 GMT-0800 (Pacific Standard Time)]
+Failed to get pixmap of layer 6 (bg2.png): Error: timeout
+
+[Wed Dec 04 2013 00:36:32 GMT-0800 (Pacific Standard Time)]
+Failed to get pixmap of layer 160 (OurFavoriteSites.png): Error: timeout
+
+[Wed Dec 04 2013 00:36:33 GMT-0800 (Pacific Standard Time)]
+Failed to get pixmap of layer 94 (blog.png): Error: timeout
+
+[Wed Dec 04 2013 00:36:33 GMT-0800 (Pacific Standard Time)]
+Failed to get pixmap of layer 23 (Intel_Laptops.png): Error: timeout
+
+[Wed Dec 04 2013 00:36:33 GMT-0800 (Pacific Standard Time)]
+Failed to get pixmap of layer 21 (Intel_Office_Desktops.png): Error: timeout
+
+[Wed Dec 04 2013 00:36:33 GMT-0800 (Pacific Standard Time)]
+Failed to get pixmap of layer 88 (Intel_Gaming_Desktops_copy.png): Error: timeout
+
+[Wed Dec 04 2013 00:36:34 GMT-0800 (Pacific Standard Time)]
+Failed to get pixmap of layer 14 (menu_bar.png): Error: timeout
+

@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+body,h1,h2,h3,h4,h5,h6,p,a,ul{
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+}
+body{
+	font-size:14px;
+}
+h1,.h1-like{
+	font-size:58px;
+	line-height:72px;
+}
+h2,.h2-like{
+	font-size:40px;
+	line-height:54px;
+}
+h3,.h3-like{
+	font-size:35px;
+	line-height:42px;
+}
+h4,.h4-like{
+	font-size:25px;
+	line-height:36px;
+}
+h5,.h5-like{
+	font-size:22px;
+	line-height:30px;
+}
+h6,.h6-like{
+	font-size:18px;
+	line-height:24px;
+}
+p,.p-like{
+	font-size:15px;
+	line-height:24px;
+}
+blockquote{
+	font-size:15px;
+	line-height:24px;
+	font-style:italic;
+}

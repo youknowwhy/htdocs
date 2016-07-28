@@ -1,0 +1,345 @@
+
+/* 
+   ------------------------------------------------------
+					Responsive Styles
+   ------------------------------------------------------
+*/
+
+
+@media (min-width: 992px) and (max-width: 1199px) {	
+
+	/*------------------------------------------*/
+	/*	 Intro Description 
+	/*------------------------------------------*/
+
+	#intro_description h2 {font-size: 45px; line-height: 45px;}
+	#intro_description h3 { font-size: 28px;}
+	#intro_description p { font-size: 17px; line-height: 23px;}
+	
+	/*------------------------------------------*/
+	/*	 Intro Register Form  
+	/*------------------------------------------*/
+
+	.form_register form { margin: 0 15px;}
+	
+	/*------------------------------------------*/
+	/*	 Feature Box Icon
+	/*------------------------------------------*/
+
+	.feature-box-icon i {font-size: 40px;}
+	
+	/*------------------------------------------*/
+	/*	 Feature Box Content
+	/*------------------------------------------*/
+
+	.feature-box-content h5 {font-size: 15px;}
+	
+	/*------------------------------------------*/
+	/*	Our Philosophy
+	/*------------------------------------------*/
+	
+	#our-philosophy .img-responsive { margin-top: 40px;}
+	
+	/*------------------------------------------*/
+	/*	  Pricing Table Body
+	/*------------------------------------------*/
+
+	.pricing-table ul.features { font-size: 15px; padding: 5px 15px; }
+	
+	/*------------------------------------------*/
+	/*	  FAQs Question
+	/*------------------------------------------*/
+
+	.question p {font-size: 15px;line-height: 23px;}
+	
+	/*------------------------------------------*/
+	/*	 Testimonial Message Text
+	/*------------------------------------------*/
+
+	.testimonials p {font-size: 21px; line-height: 34px;}
+
+
+}
+
+
+@media only screen and (max-width: 991px){
+
+	.titlebar p {font-size: 16px;line-height: 22px;padding: 0;} 
+	
+	#features, #pricing {padding-top: 80px;padding-bottom: 40px;}
+	#about, #portfolio, #faq {padding-top: 80px;padding-bottom: 60px;}
+	#team {padding-top: 80px;padding-bottom: 30px;}
+	#clients {padding-top: 80px;padding-bottom: 80px;}
+	#video {padding-top: 80px;}
+
+	/*------------------------------------------*/
+	/*	 Navigation Menu    
+	/*------------------------------------------*/
+	
+	.navbar-nav > li > a {padding: 0 10px;}
+
+	/*------------------------------------------*/
+	/*	 Intro Description 
+	/*------------------------------------------*/
+
+	#intro {padding-top: 80px; padding-bottom: 100px;}
+	
+	/*------------------------------------------*/
+	/*	 Intro Description 
+	/*------------------------------------------*/
+
+	#intro_description h2 { margin-top: 0px; text-align: center;}
+	#intro_description h3 { font-size: 30px; text-align: center; margin-bottom: 20px;}
+	#intro_description p { font-size: 17px; line-height: 23px;}
+	p.intro_paragraph, .intro_list {padding: 0 12% 0 15%;}
+	
+	/*------------------------------------------*/
+	/*	 Intro Register Form  
+	/*------------------------------------------*/
+
+	#intro_form { width: 80%; margin-left: 10%;}
+		
+	/*------------------------------------------*/
+	/*	Our Philosophy
+	/*------------------------------------------*/
+	
+	#our-philosophy .img-responsive { margin-top: 60px; padding: 0 80px;}
+	#accordion-holder {margin-bottom: 60px;}
+	
+	/*------------------------------------------*/
+	/*	 Call-To-Action Slogan
+	/*------------------------------------------*/ 
+	
+	#cta_slogan {text-align: center; margin-bottom: 10px;}
+	
+	/*------------------------------------------*/
+	/*	 Call-To-Action Button
+	/*------------------------------------------*/ 
+	
+	#cta_button {text-align: center!important;}
+	
+	/*------------------------------------------*/
+	/*	  Video Banner
+	/*------------------------------------------*/ 
+	
+	#video_title h2 {font-size: 26px;}
+	#video_title p {padding: 0 3%;}
+	
+	/*------------------------------------------*/
+	/*	  Testimonials Rotator
+	/*------------------------------------------*/ 
+	
+	.testimonials {margin: 50px 0% 50px;}
+	
+	/*------------------------------------------*/
+	/*	  Newsletter Form Input
+	/*------------------------------------------*/
+	
+	#newsletter form input[type="email"] {width: 55%;}
+	#newsletter form input[type="submit"] {width: 25%;}	
+	
+	/*------------------------------------------*/
+	/*	 Footer 
+	/*------------------------------------------*/ 
+	
+	#footer {padding-top: 40px;padding-bottom: 30px;}
+	#footer_copy {text-align: center; margin-bottom: 20px;}
+	#footer_icons {text-align: center!important;}
+	
+
+}
+
+
+@media only screen and (max-width: 767px){
+
+	/*------------------------------------------*/
+	/*	 Logo Image    
+	/*------------------------------------------*/
+
+	.navbar-brand {padding: 18px 45px;} 
+	
+	/*------------------------------------------*/
+	/*	 Responsive Menu
+	/*------------------------------------------*/
+	
+	.navbar-nav { margin: 0 -15px; border-top: 1px solid #ddd; background-color: #f4f4f4;}	
+	.navbar-nav > li { text-align: center;}
+	.navbar-nav > li > a { line-height: 40px; text-align: center;}
+	.navbar-toggle {margin: 13px 45px 13px 0;}
+	
+	/*------------------------------------------*/
+	/*	 Intro Description 
+	/*------------------------------------------*/
+
+	#intro_description h2 {font-size: 46px; line-height: 46px;}
+	#intro_description h3 { font-size: 28px; }	
+	#intro_description p { font-size: 16px; line-height: 22px;}
+	p.intro_paragraph, .intro_list {padding: 0 15% 0 17%;}
+
+	#features, #team, #portfolio, #pricing, #video, #testimonials-rotator { padding-left: 15px; padding-right: 15px; }
+	#about, #faq { padding-left: 25px; padding-right: 25px; }
+
+	/*------------------------------------------*/
+	/*	 Promo Banner 
+	/*------------------------------------------*/
+	
+	#promo-banner h1 {font-size: 34px;line-height: 34px;}
+	#promo-banner h3 {font-size: 20px;}
+	
+	/*------------------------------------------*/
+	/*	 Clients Carousel Navigation
+	/*------------------------------------------*/
+
+	.customNavigation {right: 30px;}
+
+
+}
+
+
+@media (max-width: 480px) {
+
+	#intro, #features, #about, #team, #portfolio, #pricing, #video, #faq { padding-left: 10px; padding-right: 10px; }
+	
+	/*------------------------------------------*/
+	/*	 Logo Image    
+	/*------------------------------------------*/
+
+	.navbar-brand {padding: 18px 30px;} 
+	
+	/*------------------------------------------*/
+	/*	 Responsive Menu
+	/*------------------------------------------*/
+	
+	.navbar-toggle {margin: 13px 30px 13px 0;}
+	
+	/*------------------------------------------*/
+	/*	 Intro Description 
+	/*------------------------------------------*/
+
+	#intro {padding-top: 80px; padding-bottom: 80px;}
+
+	#intro_description h2 {font-size: 38px; line-height: 38px;}
+	#intro_description h3 { font-size: 22px; }	
+	#intro_description p { font-size: 16px; line-height: 22px;}
+	p.intro_paragraph {text-align: center; padding: 0;}
+	.intro_list {display: none;}
+	
+	/*------------------------------------------*/
+	/*	 Intro Register Form  
+	/*------------------------------------------*/
+	
+	#intro_form { width: 100%; margin-left: 0%;}
+	.form_register form { margin: 0 15px;}
+	
+	/*------------------------------------------*/
+	/*	 Feature Box 
+	/*------------------------------------------*/
+
+	.feature-box { width: 100%; float: none;}
+	
+	/*------------------------------------------*/
+	/*	 Promo Banner 
+	/*------------------------------------------*/
+	
+	#promo-banner h1 {font-size: 30px; line-height: 30px;}
+	#promo-banner h3 {font-size: 18px;}
+	
+	/*------------------------------------------*/
+	/*	Our Philosophy
+	/*------------------------------------------*/
+	
+	#our-philosophy .img-responsive { padding: 0;}
+	
+	/*------------------------------------------*/
+	/*	 Team
+	/*------------------------------------------*/ 
+	
+	#team-member-holder { padding: 0 10%;}
+	#team-member-holder .col-xs-6 { width: 100%; float: none !important; }	
+	
+	/*------------------------------------------*/
+	/*	 Portfolio
+	/*------------------------------------------*/ 
+	
+	.portfolio-item { width: 100%; float: none !important; }	
+	
+	/*------------------------------------------*/
+	/*	 Call-To-Action
+	/*------------------------------------------*/  
+	
+	#cta_slogan h2 {font-size: 25px; line-height: 32px; padding: 0;}
+	#cta_slogan p {font-size: 16px; line-height: 24px; padding: 0;}
+	
+	/*------------------------------------------*/
+	/*	 Peicing
+	/*------------------------------------------*/
+	
+	#pricing-table-holder { padding: 0 10%;}
+	#pricing-table-holder .col-xs-6 { width: 100%; float: none !important; }
+
+	/*------------------------------------------*/
+	/*	 Testimonial Message Text
+	/*------------------------------------------*/
+
+	.testimonials p {font-size: 18px; line-height: 28px; padding: 0%;}	
+	
+	/*------------------------------------------*/
+	/*	 Our Clients
+	/*------------------------------------------*/
+	.customNavigation {display: none;}
+	
+	/*------------------------------------------*/
+	/*	  Newsletter Form Input
+	/*------------------------------------------*/
+	
+	#newsletter form input[type="email"] {width: 60%; font-size: 16px;}
+	#newsletter form input[type="submit"] {width: 30%; font-size: 16px; margin-left: 5px;}	
+	.message {font-size: 16px;}
+
+	
+}
+
+
+@media (max-width: 320px) {
+
+	#intro, #features, #about, #team, #portfolio, #pricing, #video, #faq { padding-left: 0; padding-right: 0; }
+	
+	/*------------------------------------------*/
+	/*	 Logo Image    
+	/*------------------------------------------*/
+
+	.navbar-brand {padding: 18px 15px;}  
+	
+	/*------------------------------------------*/
+	/*	 Responsive Menu    
+	/*------------------------------------------*/
+
+	.navbar-toggle {margin: 13px 15px 13px 0;}
+	
+	/*------------------------------------------*/
+	/*	 Intro Register Form  
+	/*------------------------------------------*/
+	
+	.form_register form { margin: 0;}
+	
+	/*------------------------------------------*/
+	/*	 Team
+	/*------------------------------------------*/ 
+	
+	#team-member-holder { padding: 0;}
+	
+	/*------------------------------------------*/
+	/*	 Peicing
+	/*------------------------------------------*/
+	
+	#pricing-table-holder { padding: 0;}
+	
+		/*------------------------------------------*/
+	/*	  Newsletter Form Input
+	/*------------------------------------------*/
+	
+	#newsletter form input[type="email"] {width: 55%; font-size: 14px;}
+	#newsletter form input[type="submit"] {width: 40%; font-size: 14px; margin-left: 2px;}	
+	.message {font-size: 16px;}
+
+}
